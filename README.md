@@ -1,16 +1,19 @@
 
 <center>
-  
+
 ![](https://img.shields.io/packagist/dt/Athlon1600/php-proxy-app.svg) ![](https://img.shields.io/github/last-commit/Athlon1600/php-proxy-app.svg) ![](https://img.shields.io/github/license/Athlon1600/php-proxy-app.svg)
 
 </center>
 
 
-# php-proxy-app
+# trkn-proximity
 
-Web Proxy Application built on [**php-proxy library**](https://github.com/Athlon1600/php-proxy) ready to be installed on your server
+Web Proxy Application built on [**php-proxy library**](https://github.com/tucommenceapousser/trkn-proximity) ready to be installed on your server
 
 ![alt text](http://i.imgur.com/KrtU5KE.png?1 "This is how PHP-Proxy looks when installed")
+
+## Run on replit
+[![Run on Replit](https://replit.com/badge/github/tucommenceapousser/hasteclient)](https://replit.com/github/tucommenceapousser/trkn-proximity)
 
 ## To Do List
 
@@ -35,7 +38,7 @@ Keep in mind that this is a **project** and not a library. Installing this via *
 A project such as this, should be installed straight into the public directory of your web server.
 
 ```bash
-composer create-project athlon1600/php-proxy-app:dev-master /var/www/
+composer create-project tucommenceapousser/trkn-proximity:main /var/www/
 ```
 
 If you do not have composer or trying to host this application on either a **shared hosting**, or a VPS hosting with limited permissions (dreamhost.com), then download a pre-installed version of this app as a ZIP archive from [**www.php-proxy.com**](https://www.php-proxy.com/).
